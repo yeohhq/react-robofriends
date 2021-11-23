@@ -2,6 +2,10 @@ import React from "react";
 import Card from "./Card";
 
 const CardList = ({ robots }) => {
+  // if (true) {
+  //   return new Error("Nooooo!");
+  // }
+  // Mimic error
   return (
     <div>
       {robots.map((user, i) => {
